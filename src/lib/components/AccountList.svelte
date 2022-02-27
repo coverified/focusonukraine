@@ -51,8 +51,7 @@
 	}
 
 	.active {
-		outline: 3px solid var(--color-primary);
-		outline-offset: 3px;
+		border: 3px solid var(--color-primary);
 	}
 
 	.twitter__wrapper {
