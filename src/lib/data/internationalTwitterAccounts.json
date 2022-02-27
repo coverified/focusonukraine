@@ -1,0 +1,16 @@
+[
+    {
+        "name": "Vassili",
+        "surname": "Golod",
+        "twitterName": "VassiliGolod",
+        "twitterLink": "https://twitter.com/VassiliGolod?ref_src=twsrc%5Etfw",
+        "image": "/vassiligolod.jpg"
+    },
+    {
+        "name": "Christopher",
+        "surname": "Miller",
+        "twitterName": "ChristopherJM",
+        "twitterLink": "https://twitter.com/ChristopherJM?ref_src=twsrc%5Etfw",
+        "image": "/christopherjm.jpg"
+    }
+]

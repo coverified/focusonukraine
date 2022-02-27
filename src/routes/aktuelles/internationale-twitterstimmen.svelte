@@ -9,13 +9,13 @@
 				<use xlink:href="#left-arrow" xmlns:xlink="http://www.w3.org/1999/xlink" />
 			</svg>
 		</a>
-		<h1>Deutsche Twitterstimmen</h1>
+		<h1>Internationale Twitterstimmen</h1>
 	</div>
 </header>
 <main class="container">
 	<div on:load={twttr.widgets.load()}>
 		<TwitterEmbed
-			href="https://twitter.com/zeitonline/lists/ukraine?ref_src=twsrc%5Etfw"
+			href="https://twitter.com/zeitonline/lists/ukraine?ref_src=twsrc%5Etfw"			
 		/>
 	</div>
 </main>

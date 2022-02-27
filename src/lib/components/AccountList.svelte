@@ -1,46 +1,51 @@
 <script>
-	import twitterAccounts from '$lib/data/twitterAccounts.json';
 	import TwitterEmbed from '$lib/components/TwitterEmbed.svelte';
+
 	let singleFeed = false;
 	let activeItem;
 	let twitterProfile;
 
+    export let twitterAccounts;
+
 	const handleImageClick = (twitterLink, index) => {
 		twttr.widgets.load();
-		singleFeed = true;
 		activeItem = index;
 		twitterProfile = twitterLink;
+		singleFeed = true;
 	};
 </script>
 
-<ul>
-	{#each twitterAccounts as { twitterName, twitterLink, image }, index}
-		<li
-			on:click={() => {
-				handleImageClick(twitterLink, index);
-			}}
-		>
-			<img
-				src={image}
-				loading="lazy"
-				alt={twitterName}
-				width="70"
-				height="70"
-				class={activeItem === index ? 'active' : ''}
-			/>
-			<p>
-				{twitterName}
-			</p>
-		</li>
-	{/each}
-</ul>
-{#if singleFeed}
-	{#key twitterProfile}
-		<div class="twitter__wrapper">
-			<TwitterEmbed href={twitterProfile} height="500" />
-		</div>
-	{/key}
-{/if}
+<div class="account-list {!singleFeed ? 'mb' : ''}">
+    <h2>Einzelne Accounts auswählen</h2>
+	<ul>
+		{#each twitterAccounts as { twitterName, twitterLink, image }, index}
+			<li
+				on:click={() => {
+					handleImageClick(twitterLink, index);
+				}}
+			>
+				<img
+					src={image}
+					loading="lazy"
+					alt={twitterName}
+					width="70"
+					height="70"
+					class={activeItem === index ? 'active' : ''}
+				/>
+				<p>
+					{twitterName}
+				</p>
+			</li>
+		{/each}
+	</ul>
+	{#if singleFeed}
+		{#key twitterProfile}
+			<div class="twitter__wrapper">
+				<TwitterEmbed href={twitterProfile} height="500" />
+			</div>
+		{/key}
+	{/if}
+</div>
 
 <style lang="scss">
 	img {
@@ -54,9 +59,17 @@
 		border: 3px solid var(--color-primary);
 	}
 
+	.mb {
+		margin-bottom: 9.625rem;
+	}
+
 	.twitter__wrapper {
 		margin-top: 7.1875rem;
 	}
+
+    h2 {
+        margin-top: 2.8125rem;
+    }
 
 	ul {
 		display: flex;
