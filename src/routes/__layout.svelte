@@ -98,4 +98,9 @@
 	:global(::-webkit-scrollbar) {
 		display: none;
 	}
+
+  :global(header) {
+    background-color: var(--color-secondary);
+		width: 100%;
+  }
 </style>

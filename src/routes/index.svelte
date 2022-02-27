@@ -9,7 +9,7 @@
 		href="https://twitter.com/zeitonline/lists/ukraine?ref_src=twsrc%5Etfw"
 		height="500"
 	/>
-	<a href="/deutsche-twitterstimmen" title="Deutsche Twitterstimmen"> alle anzeigen </a>
+	<a href="aktuelles/deutsche-twitterstimmen" title="Deutsche Twitterstimmen"> alle anzeigen </a>
 </div>
 <h2>Einzelne Accounts auswählen</h2>
 <AccountList />

@@ -66,9 +66,6 @@
 
 <style lang="scss">
 	div {
-		background-color: var(--color-secondary);
-		width: 100%;
-
 		h1 {
 			padding-top: 3.375rem;
 			text-align: center;
