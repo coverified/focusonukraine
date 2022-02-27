@@ -1,12 +1,12 @@
 <script>
 	import twitterAccounts from '$lib/data/twitterAccounts.json';
-	import TwitterEmbed from './TwitterEmbed.svelte';
-
+	import TwitterEmbed from '$lib/components/TwitterEmbed.svelte';
 	let singleFeed = false;
 	let twitterProfile;
 
-	const handleImageClick = (twitterLink) => {    
+	const handleImageClick = (twitterLink) => {
 		singleFeed = true;
+		twttr.widgets.load();
 		twitterProfile = twitterLink;
 	};
 </script>
@@ -26,7 +26,11 @@
 	{/each}
 </ul>
 {#if singleFeed}
-	<TwitterEmbed href={twitterProfile} height="500" />
+	{#key twitterProfile}
+		<div>
+			<TwitterEmbed href={twitterProfile} height="500" />
+		</div>
+	{/key}
 {/if}
 
 <style lang="scss">
@@ -41,6 +45,7 @@
 		list-style-type: none;
 
 		li {
+            cursor: pointer;
 			&:not(:last-of-type) {
 				margin-right: 6px;
 			}

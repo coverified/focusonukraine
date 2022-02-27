@@ -4,7 +4,10 @@
 
 <div class="container">
 	<h1>
-		FocusOn UKRAINE
+		FocusOn
+		<svg class="">
+			<use xlink:href="#ukraine" xmlns:xlink="http://www.w3.org/1999/xlink" />
+		</svg>
 		<span class="d-block small">Einfach vielfältig informiert</span>
 	</h1>
 	<nav>
@@ -71,6 +74,12 @@
 			text-align: center;
 			color: var(--color-primary);
 			margin-bottom: 2.1875rem;
+
+			svg {
+				width: 145px;
+				height: 51px;
+				margin-top: -12px;
+			}
 
 			span {
 				font-size: 1rem;
