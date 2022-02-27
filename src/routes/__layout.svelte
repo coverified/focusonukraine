@@ -1,9 +1,9 @@
 <script>
 	import Icons from '$lib/components/Icons.svelte';
-  import Nav from '$lib/components/Nav.svelte';
-  import { onMount } from 'svelte';
+	import Nav from '$lib/components/Nav.svelte';
+	import { onMount } from 'svelte';
 
-  onMount(async () => {
+	onMount(async () => {
 		window.twttr = (function (d, s, id) {
 			var js,
 				fjs = d.getElementsByTagName(s)[0],
@@ -22,9 +22,7 @@
 			return t;
 		})(document, 'script', 'twitter-wjs');
 	});
-	// import Footer from "../components/Footer.svelte";
 </script>
-
 
 <Icons />
 
@@ -36,8 +34,6 @@
 	<slot />
 </main>
 
-<!--
-  <Footer /> -->
 <style type="text/scss">
 	@font-face {
 		font-family: 'Barlow';
@@ -90,6 +86,7 @@
 		--color-secondary: #fed500;
 		--color-black: #000;
 		--color-white: #fff;
+		--body-color: #383840;
 		--bs-gutter-x: 1.6875rem;
 
 		overflow-x: hidden;
@@ -99,6 +96,10 @@
 		font-size: 1rem;
 		color: var(--body-color);
 		font-family: 'Barlow', sans-serif;
+	}
+
+	main {
+		position: relative;
 	}
 
 	:global(h1, h2, h3, h4) {
@@ -112,6 +113,7 @@
 	:global(h2) {
 		font-size: 1.25rem;
 		margin-top: 2.0625rem;
+		margin-bottom: 0.5rem;
 	}
 
 	:global(::-webkit-scrollbar) {

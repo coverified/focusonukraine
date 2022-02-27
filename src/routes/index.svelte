@@ -12,7 +12,6 @@
 	<a href="/deutsche-twitterstimmen" title="Deutsche Twitterstimmen"> alle anzeigen </a>
 </div>
 <h2>Einzelne Accounts auswählen</h2>
-
 <AccountList />
 
 <style lang="scss">
