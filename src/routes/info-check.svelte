@@ -1,6 +1,5 @@
-<h2>
-    Info Check
-</h2>
-<p>
-    coming soon...
+<h2>Info Check</h2>
+<p class="intro">
+	Gezielte Propaganda erzeugt Desinformation und Verunsicherung. Wir bieten Euch Fakten statt Fake
+	und Tools zum Selber-Checken.
 </p>

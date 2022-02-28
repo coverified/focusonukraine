@@ -1,6 +1,7 @@
 <script>
 	import Icons from '$lib/components/Icons.svelte';
 	import Nav from '$lib/components/Nav.svelte';
+	import Footer from '$lib/components/Footer.svelte';
 </script>
 
 <Icons />
@@ -12,6 +13,8 @@
 <main class="container">
 	<slot />
 </main>
+
+<Footer />
 
 <style type="text/scss">
 	@font-face {
@@ -111,5 +114,11 @@
 		font-style: italic;
 		margin-top: 2.3125rem;
 		padding: 0 1.6875rem;
+	}
+
+	@media (max-width: 768px) {
+		:global(::-webkit-scrollbar) {
+			display: none;
+		}
 	}
 </style>
