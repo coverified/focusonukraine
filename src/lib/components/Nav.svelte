@@ -86,8 +86,9 @@
 
 		nav {
 			width: 100%;
-			height: auto;
-			overflow: auto;
+			height: 100%;
+			overflow-y: hidden;
+			overflow-x: auto;
 			white-space: nowrap;
 			padding-bottom: 1.125rem;
 
