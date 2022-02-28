@@ -37,7 +37,6 @@
 		font-display: swap;
 		src: url('/fonts/Barlow/Barlow-Medium.ttf') format('truetype');
 	}
-
 	@font-face {
 		font-family: 'Barlow';
 		font-style: normal;
@@ -45,7 +44,13 @@
 		font-display: swap;
 		src: url('/fonts/Barlow/Barlow-SemiBold.ttf') format('truetype');
 	}
-
+	@font-face {
+		font-family: 'Barlow';
+		font-style: italic;
+		font-weight: 600;
+		font-display: swap;
+		src: url('/fonts/Barlow/Barlow-SemiBoldItalic.ttf') format('truetype');
+	}
 	@font-face {
 		font-family: 'Barlow';
 		font-style: normal;
@@ -91,12 +96,20 @@
 
 	:global(h2) {
 		font-size: 1.25rem;
-		margin-top: 2.0625rem;
+		margin-top: 2rem;
 		margin-bottom: 0.5rem;
 	}
 
 	:global(header) {
 		background-color: var(--color-secondary);
 		width: 100%;
+	}
+
+	:global(.intro) {
+		font-weight: 600;
+		font-size: 0.875rem;
+		font-style: italic;
+		margin-top: 2.3125rem;
+		padding: 0 1.6875rem;
 	}
 </style>

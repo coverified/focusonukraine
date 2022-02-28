@@ -5,15 +5,22 @@
 	import InternationalTwitterAccounts from '$lib/data/internationalTwitterAccounts.json';
 </script>
 
+<p class="intro">
+	#FocusOnUkraine bündelt vertrauenswürdige Informationen zum Krieg in der Ukraine. Zur aktuellen
+	Lage berichten anerkannte nationale und internationale Twitterstimmen.
+</p>
+
 <h2>Internationale Twitterstimmen</h2>
 <div class="text-center" on:load={twttr.widgets.load()}>
 	<TwitterEmbed
 		href="https://twitter.com/DDAlliance_org/lists/1498308539399479304?ref_src=twsrc%5Etfw"
 		height="500"
 	/>
-	<a href="aktuelles/internationale-twitterstimmen" title="Deutsche Twitterstimmen"> alle anzeigen </a>
+	<a href="aktuelles/internationale-twitterstimmen" title="Deutsche Twitterstimmen">
+		alle anzeigen
+	</a>
 </div>
-<AccountList twitterAccounts={InternationalTwitterAccounts}/>
+<AccountList twitterAccounts={InternationalTwitterAccounts} />
 
 <h2>Deutsche Twitterstimmen</h2>
 <div class="text-center" on:load={twttr.widgets.load()}>
