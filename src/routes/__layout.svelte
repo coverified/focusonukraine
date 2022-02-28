@@ -95,12 +95,8 @@
 		margin-bottom: 0.5rem;
 	}
 
-	:global(::-webkit-scrollbar) {
-		display: none;
-	}
-
-  :global(header) {
-    background-color: var(--color-secondary);
+	:global(header) {
+		background-color: var(--color-secondary);
 		width: 100%;
-  }
+	}
 </style>

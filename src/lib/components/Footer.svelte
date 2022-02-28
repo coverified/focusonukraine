@@ -2,7 +2,7 @@
 </script>
 
 <footer class="container">
-	
+	<!-- TODO -->
 </footer>
 
 <style lang="scss">

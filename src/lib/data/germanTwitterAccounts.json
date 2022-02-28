@@ -1,65 +1,77 @@
 [
     {
-        "name": "Vassili",
-        "surname": "Golod",
         "twitterName": "VassiliGolod",
         "twitterLink": "https://twitter.com/VassiliGolod?ref_src=twsrc%5Etfw",
         "image": "/vassiligolod.jpg"
     },
     {
-        "name": "Vassili",
-        "surname": "Golod",
-        "twitterName": "VassiliGolod",
-        "twitterLink": "https://twitter.com/VassiliGolod?ref_src=twsrc%5Etfw",
-        "image": "/vassiligolod.jpg"
+        "twitterName": "Eugene Finkel",
+        "twitterLink": "https://twitter.com/eugene_finkel?ref_src=twsrc%5Etfw",
+        "image": "/eugene.jpeg"
     },
     {
-        "name": "Vassili",
-        "surname": "Golod",
-        "twitterName": "VassiliGolod",
-        "twitterLink": "https://twitter.com/VassiliGolod?ref_src=twsrc%5Etfw",
-        "image": "/vassiligolod.jpg"
+        "twitterName": "barthreb",
+        "twitterLink": "https://twitter.com/barthreb?ref_src=twsrc%5Etfw",
+        "image": "/barthreb.jpeg"
     },
     {
-        "name": "Vassili",
-        "surname": "Golod",
-        "twitterName": "VassiliGolod",
-        "twitterLink": "https://twitter.com/VassiliGolod?ref_src=twsrc%5Etfw",
-        "image": "/vassiligolod.jpg"
+        "twitterName": "wagner_han",
+        "twitterLink": "https://twitter.com/wagner_han?ref_src=twsrc%5Etfw",
+        "image": "/wagner_han.jpeg"
     },
     {
-        "name": "Vassili",
-        "surname": "Golod",
-        "twitterName": "VassiliGolod",
-        "twitterLink": "https://twitter.com/VassiliGolod?ref_src=twsrc%5Etfw",
-        "image": "/vassiligolod.jpg"
+        "twitterName": "GolinehAtai",
+        "twitterLink": "https://twitter.com/GolinehAtai?ref_src=twsrc%5Etfw",
+        "image": "/golinehatai.jpeg"
     },
     {
-        "name": "Vassili",
-        "surname": "Golod",
-        "twitterName": "VassiliGolod",
-        "twitterLink": "https://twitter.com/VassiliGolod?ref_src=twsrc%5Etfw",
-        "image": "/vassiligolod.jpg"
+        "twitterName": "wilczynskitweet",
+        "twitterLink": "https://twitter.com/wilczynskitweet?ref_src=twsrc%5Etfw",
+        "image": "/wilczynskitweet.jpeg"
     },
     {
-        "name": "Vassili",
-        "surname": "Golod",
-        "twitterName": "VassiliGolod",
-        "twitterLink": "https://twitter.com/VassiliGolod?ref_src=twsrc%5Etfw",
-        "image": "/vassiligolod.jpg"
+        "twitterName": "InaRuck",
+        "twitterLink": "https://twitter.com/InaRuck?ref_src=twsrc%5Etfw",
+        "image": "/inaruck.jpeg"
     },
     {
-        "name": "Vassili",
-        "surname": "Golod",
-        "twitterName": "VassiliGolod",
-        "twitterLink": "https://twitter.com/VassiliGolod?ref_src=twsrc%5Etfw",
-        "image": "/vassiligolod.jpg"
+        "twitterName": "SilkeBigalke",
+        "twitterLink": "https://twitter.com/SilkeBigalke?ref_src=twsrc%5Etfw",
+        "image": "/silkebigalke.jpeg"
     },
     {
-        "name": "Christopher",
-        "surname": "Miller",
-        "twitterName": "ChristopherJM",
-        "twitterLink": "https://twitter.com/ChristopherJM?ref_src=twsrc%5Etfw",
-        "image": "/christopherjm.jpg"
+        "twitterName": "AndreaBeer2",
+        "twitterLink": "https://twitter.com/AndreaBeer2?ref_src=twsrc%5Etfw",
+        "image": "/andreabeer2.jpeg"
+    },
+    {
+        "twitterName": "AliceBota",
+        "twitterLink": "https://twitter.com/AliceBota?ref_src=twsrc%5Etfw",
+        "image": "/alicebota.jpeg"
+    },
+    {
+        "twitterName": "hebelowski",
+        "twitterLink": "https://twitter.com/hebelowski?ref_src=twsrc%5Etfw",
+        "image": "/hebelowski.jpeg"
+    },
+    {
+        "twitterName": "nzzmac",
+        "twitterLink": "https://twitter.com/nzzmac?ref_src=twsrc%5Etfw",
+        "image": "https://pbs.twimg.com/profile_images/769974353723260928/AypynjSW_400x400.jpg"
+    },
+    {
+        "twitterName": "denistrubetskoy",
+        "twitterLink": "https://twitter.com/denistrubetskoy?ref_src=twsrc%5Etfw",
+        "image": "https://pbs.twimg.com/profile_images/1075048350116917248/ro5sx_Cn_400x400.jpg"
+    },
+    {
+        "twitterName": "phoebe_gaa",
+        "twitterLink": "https://twitter.com/phoebe_gaa?ref_src=twsrc%5Etfw",
+        "image": "https://pbs.twimg.com/profile_images/1354868288866680832/gRfO7WXs_400x400.jpg"
+    },
+    {
+        "twitterName": "lokshin",
+        "twitterLink": "https://twitter.com/lokshin?ref_src=twsrc%5Etfw",
+        "image": "https://pbs.twimg.com/profile_images/378800000577590753/e1b2c745e0a788f146257c6d404af332_400x400.jpeg"
     }
 ]

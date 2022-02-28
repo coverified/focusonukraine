@@ -15,7 +15,7 @@
 <main class="container">
 	<div on:load={twttr.widgets.load()}>
 		<TwitterEmbed
-			href="https://twitter.com/zeitonline/lists/ukraine?ref_src=twsrc%5Etfw"			
+			href="https://twitter.com/DDAlliance_org/lists/1498308539399479304?ref_src=twsrc%5Etfw"
 		/>
 	</div>
 </main>
