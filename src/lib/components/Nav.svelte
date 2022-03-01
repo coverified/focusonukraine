@@ -60,7 +60,7 @@
 			<svg class="">
 				<use xlink:href="#magnifying-glass" xmlns:xlink="http://www.w3.org/1999/xlink" />
 			</svg>
-			Was wir machen
+			Über
 		</a>
 	</nav>
 </div>

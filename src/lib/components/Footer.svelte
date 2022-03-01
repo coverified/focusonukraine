@@ -1,6 +1,3 @@
-<script>
-</script>
-
 <footer>
 	<div class="container">
 		<a href="/impressum" title="Impressum"> Impressum </a>
@@ -12,6 +9,7 @@
 	footer {
 		background-color: var(--color-secondary);
 		width: 100%;
+		margin-top: 2rem;
 	}
 
 	div {

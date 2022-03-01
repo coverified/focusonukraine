@@ -116,6 +116,20 @@
 		padding: 0 1.6875rem;
 	}
 
+	:global(.swiper-slide) {
+		background-color: var(--color-secondary);
+		padding: 14px 12px 21px 12px;
+
+		:global(ul) {
+			margin-bottom: 23px;
+		}
+
+		:global(h2) {
+			margin-top: 0;
+			margin-bottom: 0.75rem;
+		}
+	}
+
 	@media (max-width: 768px) {
 		:global(::-webkit-scrollbar) {
 			display: none;
