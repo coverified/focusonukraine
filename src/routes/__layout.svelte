@@ -111,6 +111,10 @@
 		width: 100%;
 	}
 
+	:global(a) {
+		color: var(--color-primary);
+	}
+
 	:global(.intro) {
 		font-weight: 600;
 		font-size: 0.875rem;
