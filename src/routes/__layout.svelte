@@ -2,13 +2,15 @@
 	import Icons from '$lib/components/Icons.svelte';
 	import Nav from '$lib/components/Nav.svelte';
 	import Footer from '$lib/components/Footer.svelte';
+	import Headroom from 'svelte-headroom';
 </script>
 
 <Icons />
-
-<header>
-	<Nav />
-</header>
+<Headroom headerClass="test" offset={163} tolerance={5}>
+	<header>
+		<Nav />
+	</header>
+</Headroom>
 
 <main class="container">
 	<slot />
@@ -79,6 +81,10 @@
 		overflow-x: hidden;
 	}
 
+	:global(iframe) {
+		z-index: 1;
+	}
+
 	:global(body) {
 		font-size: 1rem;
 		color: var(--body-color);
@@ -88,8 +94,11 @@
 
 	:global(main) {
 		position: relative;
-		min-height: calc(100vh - 289px);
+		min-height: calc(100vh - 88px);
 		overflow: hidden;
+
+		padding-top: 163px;
+		z-index: -1;
 	}
 
 	:global(h1, h2, h3, h4) {

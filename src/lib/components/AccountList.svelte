@@ -7,11 +7,18 @@
 
 	export let twitterAccounts;
 
+	let lastIndex;
 	const handleImageClick = (twitterLink, index) => {
+		if(index === lastIndex) {
+			singleFeed = false;
+			activeItem = undefined;
+			return
+		}
 		twttr.widgets.load();
 		activeItem = index;
 		twitterProfile = twitterLink;
 		singleFeed = true;
+		lastIndex = index;
 	};
 </script>
 
