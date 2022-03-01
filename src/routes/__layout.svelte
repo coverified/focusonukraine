@@ -73,6 +73,7 @@
 		--color-secondary: #fed500;
 		--color-black: #000;
 		--color-white: #fff;
+		--border-color: #dee2e6;
 		--body-color: #383840;
 		--bs-gutter-x: 1.6875rem;
 
