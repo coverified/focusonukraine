@@ -86,7 +86,7 @@
 			}
 
 			&:last-of-type {
-				margin-right: 2.5rem;
+				padding-right: 2.5rem;
 			}
 		}
 	}
@@ -97,7 +97,7 @@
 
 			li {
 				&:last-of-type {
-					margin-right: 0;
+					padding-right: 0;
 				}
 			}
 		}
