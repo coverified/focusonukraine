@@ -87,7 +87,12 @@
 			</li>
 			<li>
 				Für Videos: Screenshots lassen sich ebenfalls mit Reverse Image Search recherchieren.
-				https://citizenevidence.amnestyusa.org/ (Bietet dies direkt an)
+				<a
+					href="https://citizenevidence.amnestyusa.org/"
+					title="Amnesty International"
+					rel="noopener"
+					target="_blank">https://citizenevidence.amnestyusa.org/</a
+				> (Bietet dies direkt an)
 			</li>
 		</ul>
 	</SwiperSlide>
@@ -192,7 +197,7 @@
 	>
 		Mehr zu SIFT
 	</a>
-	<img src={sift} alt="SIFT" width="335px" height="613px"/>
+	<img src={sift} alt="SIFT" width="335px" height="613px" />
 </div>
 <div class="border mt-3 pb-0 mb-5">
 	<h2>ESCAPE-Methode</h2>
@@ -210,7 +215,7 @@
 	>
 		Mehr zu ESCAPE
 	</a>
-	<img src={evidence} alt="evidence" width="335px" height="702px"/>
+	<img src={evidence} alt="evidence" width="335px" height="702px" />
 	<img src={source} alt="source" width="335px" height="702px" />
 	<img src={context} alt="context" width="335px" height="702px" />
 	<img src={audience} alt="audience" width="335px" height="702px" />

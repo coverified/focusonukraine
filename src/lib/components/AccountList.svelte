@@ -5,7 +5,7 @@
 	let activeItem;
 	let twitterProfile;
 
-    export let twitterAccounts;
+	export let twitterAccounts;
 
 	const handleImageClick = (twitterLink, index) => {
 		twttr.widgets.load();
@@ -15,8 +15,8 @@
 	};
 </script>
 
-<div class="account-list {!singleFeed ? 'mb' : ''}">
-    <h2>Einzelne Accounts auswählen</h2>
+<div class="account-list">
+	<h2>Einzelne Accounts auswählen</h2>
 	<ul>
 		{#each twitterAccounts as { twitterName, twitterLink, image }, index}
 			<li
@@ -59,28 +59,17 @@
 		border: 3px solid var(--color-primary);
 	}
 
-	.mb {
-		margin-bottom: 9.625rem;
+	h2 {
+		margin-top: 2.8125rem;
 	}
-
-	.twitter__wrapper {
-		margin-top: 7.1875rem;
-	}
-
-    h2 {
-        margin-top: 2.8125rem;
-    }
 
 	ul {
 		display: flex;
 		list-style-type: none;
 		padding-left: 0;
-		width: 100%;
+		width: 100vw;
 		overflow: auto;
 		white-space: nowrap;
-		position: absolute;
-		left: 0;
-		padding-left: 27px;
 		padding-top: 0.5rem;
 
 		li {
@@ -94,6 +83,22 @@
 
 			p {
 				margin-top: 0.5rem;
+			}
+
+			&:last-of-type {
+				margin-right: 2.5rem;
+			}
+		}
+	}
+
+	@media (min-width: 576px) {
+		ul {
+			width: 100%;
+
+			li {
+				&:last-of-type {
+					margin-right: 0;
+				}
 			}
 		}
 	}

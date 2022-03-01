@@ -83,10 +83,13 @@
 		font-size: 1rem;
 		color: var(--body-color);
 		font-family: 'Barlow', sans-serif;
+		height: 100%;
 	}
 
-	main {
+	:global(main) {
 		position: relative;
+		min-height: calc(100vh - 289px);
+		overflow: hidden;
 	}
 
 	:global(h1, h2, h3, h4) {

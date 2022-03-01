@@ -68,7 +68,7 @@
 <style lang="scss">
 	div {
 		h1 {
-			padding-top: 3.375rem;
+			padding-top: 1.375rem;
 			text-align: center;
 			color: var(--color-primary);
 			margin-bottom: 2.1875rem;
