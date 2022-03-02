@@ -1,7 +1,7 @@
 <script>
 	import factsforfriendslogo from '$lib/assets/factsforfriendslogo.png';
-	const endpoint = 'https://cms.factsforfriends.de/facts?_limit=3';
-
+	const endpoint = 'https://cms.factsforfriends.de/facts?tags_contains=ukraine&_sort=date:DESC';
+	
 	const getFacts = async () => {
 		const response = await fetch(endpoint);
 		const result = await response.json();
@@ -30,7 +30,7 @@
 				title="Mehr erfahren"
 				class="fact-link"
 			>
-				Mehr erfahren
+				
 			</a>
 		{/each}
 	{/await}
