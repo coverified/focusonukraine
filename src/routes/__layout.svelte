@@ -6,12 +6,50 @@
 
 <Icons />
 
-<header>
+<header class="d-sm-none">
 	<Nav />
 </header>
 
-<main class="container">
+<main class="container d-sm-none">
 	<slot />
+</main>
+
+<main class="d-none d-sm-block landingpage">
+	<div class="container">
+		<h1>
+			FocusOn
+			<span class="sr-only">Ukraine</span>
+			<svg class="">
+				<use xlink:href="#ukraine" xmlns:xlink="http://www.w3.org/1999/xlink" />
+			</svg>
+			<span class="d-block small">Einfach vielfältig informiert</span>
+		</h1>
+		<h2>Mobile First!</h2>
+		<p>
+			#FocusOnUkraine bündelt vielfältige, vertrauenswürdige Informationen zum Krieg in der Ukraine.<br
+			/>
+			Diese Plattform ist sehr kurzfristig entstanden und konzentriert sich erstmal auf die mobile Darstellung.<br
+			/>
+			Desktop Ansicht ist in Arbeit. Wenn du Entwickler:in bist und uns dabei unterstützen möchtest,
+			melde dich gerne!
+		</p>
+		<h3>
+			Ruf die Seite auf deinem Handy auf oder zieh deinen Browser kleiner bis auf Handygröße, dann
+			kannst du alle Inhalte sehen
+		</h3>
+		<div class="en">
+			<p>
+				#FocusOnUkraine is a pool for a wide range of reliable informations about the war in Ukraine.
+				This platform came to life in a very short period of time and starts with a focus on mobile
+				view. Desktop view coming soon. If you happen to be a developer and want to support us, please
+				get in touch!
+			</p>
+			<h3>
+				Open this page on your mobile device or scale your browser down to mobile size to see all the
+				content.
+			</h3>
+		</div>
+	</div>
 </main>
 
 <Footer />
@@ -78,7 +116,7 @@
 
 		overflow-x: hidden;
 	}
-	
+
 	:global(body) {
 		font-size: 1rem;
 		color: var(--body-color);
@@ -134,6 +172,49 @@
 		:global(h2) {
 			margin-top: 0;
 			margin-bottom: 0.75rem;
+		}
+	}
+
+	.landingpage {
+		background-color: var(--color-secondary);
+		width: 100%;
+		height: 100vh;
+		text-align: center;
+		
+		p {
+			font-weight: 600;
+			font-style: italic;
+			margin-bottom: 3rem;
+		}
+
+		h1 {
+			padding-top: 1.375rem;
+			text-align: center;
+			color: var(--color-primary);
+			margin-bottom: 2.1875rem;
+
+			svg {
+				width: 145px;
+				height: 51px;
+				margin-top: -12px;
+			}
+
+			span {
+				font-size: 1rem;
+			}
+		}
+
+		h2 {
+			font-size: 3rem;
+			font-weight: 600;
+			font-style: italic;
+			margin-top: 8rem;
+			margin-bottom: 4rem;
+		}
+
+		.en {
+			margin-top: 5rem;
+			color: var(--color-primary);
 		}
 	}
 

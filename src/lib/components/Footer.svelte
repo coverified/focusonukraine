@@ -1,4 +1,4 @@
-<footer>
+<footer class="d-sm-none">
 	<div class="container">
 		<a href="/impressum" title="Impressum"> Impressum </a>
 		<a href="/datenschutzerklaerung" title="Datenschutzerklaerung"> Datenschutzerklärung </a>
@@ -15,7 +15,7 @@
 	div {
 		padding-top: 1rem;
 		padding-bottom: 1rem;
-		
+
 		a {
 			text-decoration: none;
 
