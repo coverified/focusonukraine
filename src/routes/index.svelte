@@ -7,7 +7,7 @@
 
 <p class="intro">
 	#FocusOnUkraine bündelt vertrauenswürdige Informationen zum Krieg in der Ukraine. Zur aktuellen
-	Lage berichten anerkannte nationale und internationale Twitterstimmen.
+	Lage berichten anerkannte internationale und nationale Twitterstimmen.
 </p>
 
 <h2>Internationale Twitterstimmen</h2>
