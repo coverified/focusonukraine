@@ -49,7 +49,7 @@
 	<SwiperSlide class="border">
 		<h2>4. Empfehlungen</h2>
 		<p>
-			Die Person wurde mehrfach von verschiedenen Medien und/oder Expert:innen zu diesem Thema
+			Die Person wurde mehrfach von verschiedenen Medien und/oder Expert*innen zu diesem Thema
 			empfohlen.
 		</p>
 	</SwiperSlide>
