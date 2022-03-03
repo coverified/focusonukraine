@@ -23,7 +23,7 @@
 </script>
 
 <div class="account-list">
-	<h2>Einzelne Accounts auswählen</h2>
+	<h2>Einzelnen Account auswählen</h2>
 	<ul>
 		{#each twitterAccounts as { twitterName, twitterLink, image }, index}
 			<li
