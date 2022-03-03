@@ -6,8 +6,9 @@
 	import audience from '$lib/assets/audience.jpg';
 	import purpose from '$lib/assets/purpose.jpg';
 	import execution from '$lib/assets/execution.jpg';
-
+	
 	// Import Swiper Svelte components
+	import FactsForFriends from '$lib/components/FactsForFriends.svelte';
 	import { Swiper, SwiperSlide } from 'swiper/svelte';
 	import { Pagination } from 'swiper';
 
@@ -20,7 +21,7 @@
 	Gezielte Propaganda erzeugt Desinformation und Verunsicherung. Wir bieten Fakten
 	und Tools zum Selber-Checken.
 </p>
-<!-- TODO Factsforfriends.de Einbindung -->
+<FactsForFriends />
 <h2>Tools & Tipps</h2>
 <p>
 	Wir zeigen verschiedene Methoden, wie Nachrichten auf ihren Vertrauenswürdigkeit geprüft werden können, um
