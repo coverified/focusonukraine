@@ -27,11 +27,9 @@
 	> – ein Zusammenschluss verschiedener Initiativen mit dem Ziel, digitale Lösungen gegen Desinformation zu schaffen, 
 	Medienkompetenz aufzubauen und durch informierte Kommunikation Demokratie zu stärken – auch über Landesgrenzen hinaus.
 </p>
-<p>
 	<h2>We #StandWithUkraine</h2>
-</p>
 <img src={logo} alt="Digital Democracy Alliance" class="mb-4" />
 <h2>Die beteiligten Initiativen der DDA</h2>
-	<TODO Logos codetect, coverified, Facts for friends einfügen>
+	<!-- <TODO Logos codetect, coverified, Facts for friends einfügen> -->
 <h2>Inhaltliche Kooperation mit</h2>	
-	<TODO Logos Katapult qiqd, the buzzard einfügen>
+	<!-- <TODO Logos Katapult qiqd, the buzzard einfügen> -->
