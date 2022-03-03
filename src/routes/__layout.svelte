@@ -13,15 +13,15 @@
 
 <Icons />
 
-<header class={desktopView ? '' : 'd-sm-none'}>
+<header class={desktopView ? '' : 'd-lg-none'}>
 	<Nav/>
 </header>
 
-<main class="container {desktopView ? '' : 'd-sm-none'}">
+<main class="container {desktopView ? '' : 'd-lg-none'}">
 	<slot />
 </main>
 
-<main class="d-none {desktopView ? 'd-none' : 'd-sm-block'} landingpage">
+<main class="d-none {desktopView ? 'd-none' : 'd-lg-block'} landingpage">
 	<div class="container">
 		<h1>
 			FocusOn
@@ -54,7 +54,7 @@
 	</div>
 </main>
 
-<div class={desktopView ? '' : 'd-sm-none'}>
+<div class={desktopView ? '' : 'd-lg-none'}>
 	<Footer />
 </div>
 
