@@ -1,7 +1,7 @@
 <script>
 	import factsforfriendslogo from '$lib/assets/factsforfriendslogo.png';
 	const endpoint = 'https://cms.factsforfriends.de/facts?tags_contains=ukraine&_sort=date:DESC';
-	
+
 	const getData = async () => {
 		const response = await fetch(endpoint);
 		const result = await response.json();
@@ -20,7 +20,7 @@
 <div class="height">
 	{#await promise then data}
 		{#each data as item}
-			<img src={item.image_url} alt={item.headline} width="488" height="174"/>
+			<img src={item.image_url} alt={item.headline} width="488" height="174" />
 			<h2>{item.headline}</h2>
 			<p>{item.snack}</p>
 			<a
@@ -35,7 +35,13 @@
 		{/each}
 	{/await}
 </div>
-<a class="factforfriends-link" href="https://factsforfriends.de/" title="Facts for Friends" rel="noopener" target="_blank">
+<a
+	class="link"
+	href="https://factsforfriends.de/"
+	title="Facts for Friends"
+	rel="noopener"
+	target="_blank"
+>
 	<img src={factsforfriendslogo} alt="FactsforFriends" />factsforfriends.de
 </a>
 
@@ -65,10 +71,16 @@
 		}
 	}
 
-	.factforfriends-link {
+	.link {
 		font-size: 1.25rem;
 		display: block;
 		margin-top: 1rem;
+
+		text-decoration: none;
+
+		img {
+			margin-right: 0.5rem;
+		}
 	}
 
 	@media (min-width: 768px) {

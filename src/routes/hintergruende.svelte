@@ -1,6 +1,7 @@
 <script>
 	import Piqd from '$lib/components/Piqd.svelte';
 	import Katapult from '$lib/components/Katapult.svelte';
+	import Buzzard from '$lib/components/Buzzard.svelte';
 </script>
 
 <p class="intro">
@@ -11,3 +12,5 @@
 <Piqd />
 
 <Katapult />
+
+<Buzzard />

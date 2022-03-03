@@ -1,4 +1,6 @@
 <script>
+	import Katapult from '$lib/assets/katapult.png';
+
 	const endpoint = 'https://fff-ingest.s3.eu-central-1.amazonaws.com/katapult_ukraine.json';
 
 	const getData = async () => {
@@ -18,12 +20,21 @@
 <div class="height">
 	{#await promise then data}
 		{#each data as item}
-			<img src={item.images} alt={Katapultmagazin} width="623" height="340"/>
-			<p>{item.content}</p>		
+			<img src={item.images[0]} alt="Katapultmagazin" width="623" height="340" />
+			<p>{item.content}</p>
 			<hr />
 		{/each}
 	{/await}
 </div>
+<a
+	href="https://katapult-magazin.de/de"
+	title="katapult-magazin.de/de"
+	rel="noopener"
+	class="link"
+	target="_blank"
+>
+	<img src={Katapult} alt="katapult-magazin.de" /> katapult-magazin.de
+</a>
 
 <style lang="scss">
 	.height {
@@ -41,11 +52,21 @@
 			margin-left: -12px;
 		}
 
-
 		h2 {
 			&:first-of-type {
 				margin-top: 0.5rem;
 			}
+		}
+	}
+
+	.link {
+		font-size: 1.25rem;
+		display: block;
+		margin-top: 1rem;
+		text-decoration: none;
+
+		img {
+			margin-right: 0.5rem;
 		}
 	}
 
