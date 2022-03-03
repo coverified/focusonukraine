@@ -40,7 +40,7 @@
 		<h2>2. Erfahrung</h2>
 		<p>
 			Die Person hat mehrjährige Erfahrung als Politikwissenschaftler*in, Journalist*in,
-			Historiker*in und/oder Expert*in.
+			Historiker*in, Expert*in
 		</p>
 	</SwiperSlide>
 	<SwiperSlide class="border">
@@ -100,7 +100,7 @@
 		<h2>2. Erfahrung</h2>
 		<p>
 			Das Medium arbeitet mit Personen wie Politikwissenschaftler*innen, Journalist*innen, 
-			Historiker*innen und/oder Expert*innen zusammen.
+			Historiker*innen und/oder, Expert*innen zusammen.
 		</p>
 	</SwiperSlide>
 	<SwiperSlide class="border">
@@ -135,7 +135,3 @@
 <p>
     Ihr habt Vorschläge für weitere verlässliche Quellen, valide Auswahlkriterien oder andere Verbesserungen dieser Seite, dann schreibt uns gerne!
 </p>
-<!-- TODO MAIl -->
-<a href="mailto:">
-    TODO MAIL ADRESSE EINFÜGEN
-</a>
