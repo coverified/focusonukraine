@@ -4,7 +4,7 @@
 
 <div class="container">
 	<h1>
-		FocusOn
+		#FocusOn
 		<span class="sr-only">Ukraine</span>
 		<svg class="">
 			<use xlink:href="#ukraine" xmlns:xlink="http://www.w3.org/1999/xlink" />
