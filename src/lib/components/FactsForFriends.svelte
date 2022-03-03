@@ -2,13 +2,13 @@
 	import factsforfriendslogo from '$lib/assets/factsforfriendslogo.png';
 	const endpoint = 'https://cms.factsforfriends.de/facts?tags_contains=ukraine&_sort=date:DESC';
 	
-	const getFacts = async () => {
+	const getData = async () => {
 		const response = await fetch(endpoint);
 		const result = await response.json();
 		return result;
 	};
 
-	let factPromise = getFacts();
+	let promise = getData();
 </script>
 
 <h2>Fake vs. Fakt</h2>
@@ -18,19 +18,19 @@
 	Verschwörungen.
 </p>
 <div class="height">
-	{#await factPromise then data}
-		{#each data as fact}
-			<img src={fact.image_url} alt={fact.headline} />
-			<h2>{fact.headline}</h2>
-			<p>{fact.snack}</p>
+	{#await promise then data}
+		{#each data as item}
+			<img src={item.image_url} alt={item.headline} />
+			<h2>{item.headline}</h2>
+			<p>{item.snack}</p>
 			<a
-				href={`https://factsforfriends.de/fact/${fact.id}`}
+				href={`https://factsforfriends.de/fact/${item.id}`}
 				rel="noopener"
 				target="_blank"
 				title="Mehr erfahren"
 				class="fact-link"
 			>
-				
+				Mehr erfahren
 			</a>
 		{/each}
 	{/await}
@@ -54,7 +54,8 @@
 
 		img {
 			width: calc(100% + 24px);
-			height: auto;
+			height: 174px;
+			object-fit: cover;
 			margin-bottom: 1rem;
 			margin-right: -12px;
 			margin-left: -12px;

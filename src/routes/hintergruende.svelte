@@ -1,10 +1,13 @@
 <script>
-    import FactsForFriends from '$lib/components/FactsForFriends.svelte'
+	import Piqd from '$lib/components/Piqd.svelte';
+	import Katapult from '$lib/components/Katapult.svelte';
 </script>
-<h2>
-    Hintergründe
-</h2>
-<p>
-    coming soon...
+
+<p class="intro">
+	Diese Beiträge seriöser Journalist:innen und Medien bieten umfassende Hintergrund-berichte und
+	Wissen zum Krieg in der Ukraine.
 </p>
-<FactsForFriends />
+
+<Piqd />
+
+<Katapult />
