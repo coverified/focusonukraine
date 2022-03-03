@@ -27,15 +27,15 @@
 
 <style lang="scss">
 	.height {
-		max-height: 25rem;
+		height: 35rem;
 		overflow: auto;
 		padding: 0 12px 21px 12px;
 		border: 1px solid var(--border-color);
 
 		img {
 			width: calc(100% + 24px);
-			height: 174px;
-			object-fit: cover;
+			height: 255px;
+			object-fit: contain;
 			margin-bottom: 1rem;
 			margin-right: -12px;
 			margin-left: -12px;
