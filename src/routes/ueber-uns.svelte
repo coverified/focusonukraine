@@ -9,7 +9,7 @@
 
 <p class="intro">
 	Krisensituationen bedürfen Krisenkommunikation. Für uns bedeutet das nicht nur Bündelung
-	verlässlicher Informationen sondern vor allem Bündelung starker Kompetenzen.
+	verlässlicher Informationen, sondern vor allem Bündelung starker Kompetenzen.
 </p>
 <h2>Unser Antrieb</h2>
 <p>
