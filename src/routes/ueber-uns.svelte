@@ -66,6 +66,10 @@
 	}
 
 	@media (max-width: 576px) {
+		.buzzard {
+			margin-left: 0;
+		}
+		
 		.logos {
 			img {
 				width: 150px;
