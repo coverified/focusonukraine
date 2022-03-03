@@ -144,6 +144,10 @@
 		margin-bottom: 0.5rem;
 	}
 
+	:global(.sr-only) {
+		display: none;
+	}
+	
 	:global(header) {
 		background-color: var(--color-secondary);
 		width: 100%;
