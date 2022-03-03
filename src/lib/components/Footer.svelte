@@ -1,4 +1,4 @@
-<footer class="d-sm-none">
+<footer>
 	<div class="container">
 		<a href="/impressum" title="Impressum"> Impressum </a>
 		<a href="/datenschutzerklaerung" title="Datenschutzerklaerung"> Datenschutzerklärung </a>

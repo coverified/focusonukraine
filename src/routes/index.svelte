@@ -3,6 +3,8 @@
 	import TwitterEmbed from '$lib/components/TwitterEmbed.svelte';
 	import GermanTwitterAccounts from '$lib/data/germanTwitterAccounts.json';
 	import InternationalTwitterAccounts from '$lib/data/internationalTwitterAccounts.json';
+
+	export let desktopView;
 </script>
 
 <p class="intro">

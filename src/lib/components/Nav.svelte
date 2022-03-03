@@ -4,7 +4,7 @@
 
 <div class="container">
 	<h1>
-		FocusOn
+		#FocusOn
 		<span class="sr-only">Ukraine</span>
 		<svg class="">
 			<use xlink:href="#ukraine" xmlns:xlink="http://www.w3.org/1999/xlink" />
@@ -111,10 +111,6 @@
 				padding-bottom: 1.3125rem;
 			}
 		}
-	}
-
-	.sr-only {
-		display: none;
 	}
 
 	::-webkit-scrollbar {

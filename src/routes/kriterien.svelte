@@ -9,7 +9,8 @@
 </script>
 
 <p class="intro">
-	Welche Kriterien ziehen wir für die Auswahl der auf Focus on Ukraine hinterlegten Quellen heran?
+	Um seriöse Informationen bereitzustellen wurden für die Auswahl der auf #FocusOnUkraine 
+	hinterlegten Quellen eigens strenge Kriterienkataloge erstellt.
 </p>
 <h2>Unsere Kriterien für Twitter</h2>
 <p>
@@ -32,7 +33,7 @@
 		<h2>1. Transparenz</h2>
 		<p>
 			Es gibt umfangreiche Informationen zu der Person - wie Herkunft, Ausbildung, Studium,
-			Berufserfahrung und Beschäftigung
+			Berufserfahrung und Beschäftigung.
 		</p>
 	</SwiperSlide>
 	<SwiperSlide class="border">
@@ -74,7 +75,7 @@
 <p>
 	Neben den aktuellen News via Twitter wollen wir auch die Arbeit von Journalist*innen im In- und Ausland einbinden. 
 	Es gibt verschiedene Plattformen, die Qualitätsjournalismus bündeln und Empfehlungen aussprechen, 
-	weswegen wir uns dazu entschieden haben, mit Ihnen zusammenzuarbeiten. Desinformation lässt sich vor allem vorbeugen, 
+	weswegen wir uns dazu entschieden haben, mit ihnen zusammenzuarbeiten. Desinformation lässt sich vor allem vorbeugen, 
 	indem gut recherchierte Inhalte zugänglich gemacht werden.
 </p>
 <Swiper
@@ -92,7 +93,7 @@
 		<h2>1. Transparenz</h2>
 		<p>
 			Es gibt umfangreiche Informationen zum Medium - Impressum, Kontakt, 
-			Verantwortliche Personen, Kooperationspartner.
+			verantwortliche Personen, Kooperationspartner.
 		</p>
 	</SwiperSlide>
 	<SwiperSlide class="border">
@@ -105,7 +106,7 @@
 	<SwiperSlide class="border">
 		<h2>3. Kuratierung</h2>
 		<p>	
-			Die Das Medium wählt die Beiträge selbst aus oder lässt sie von Personen mit 
+			Das Medium wählt die Beiträge selbst aus oder lässt sie von Personen mit 
 			entsprechendem Know-How auswählen.
 		</p>
 	</SwiperSlide>
@@ -123,13 +124,14 @@
 	schnell und einfach greifbar werden. Seit Beginn des Krieges in der Ukraine fokussiert sich das Team auf die 
 	Kriegsberichterstattung und engagiert sich für die Ukrainer*innen. Alle Artikel werden von Wissenschaftler*innen oder Redakteur*innen verfasst. 
 </p>
+<p>
+	Coming soon: <b>The Buzzard</b> bündelt Medienstimmen des ganzen Meinungsspektrums in einer App und ordnet diese journalistisch ein. 
+	Die Werte und Prinzipien auf denen Buzzard ihre Arbeit aufbaut sind: Perspektivenvielfalt, Unparteilichkeit, 
+	Beteiligung und Mitsprache, konstruktive Debatten, Fokus auf die großen Fragen, Transparenz und werbefreier Journalismus.
+</p>
 <h2>
     Was können wir noch besser machen?
 </h2>
 <p>
-    Ihr habt Vorschläge für weitere verlässliche Informations-Quellen, valide Auswahlkriterien oder andere Verbesserungen dieser Seite, dann schreibt uns gerne!
+    Ihr habt Vorschläge für weitere verlässliche Quellen, valide Auswahlkriterien oder andere Verbesserungen dieser Seite, dann schreibt uns gerne!
 </p>
-<!-- TODO MAIl -->
-<a href="mailto:">
-    TODO MAIL ADRESSE EINFÜGEN
-</a>
