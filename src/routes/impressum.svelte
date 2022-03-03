@@ -34,8 +34,8 @@
 </p>
 <p>
 	<b>Inhaltlich verantwortlich i. S. d. § 18 Abs. 2 MStV</b><br />
-	Julia Diehl, Carmen Bernhardt<br />
-	CoVerified GmbH, Universität des Saarlandes Starterzentrum, Gebäude A1 1, 66123 Saarbrücken
+	Julia Diehl, Carmen Bernhardt, Katharina Klimkeit, Valerie Scholz, Kristin Marosi, Alessa Fetzer CoVerified
+	GmbH, Universität des Saarlandes Starterzentrum, Gebäude A1 1, 66123 Saarbrücken
 </p>
 <p>
 	<b>EU-Streitschlichtung</b>
