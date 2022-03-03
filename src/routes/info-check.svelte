@@ -44,8 +44,6 @@
 	loop
 	slidesPerView={1}
 	pagination={{ clickable: true }}
-	on:slideChange={() => console.log('slide change')}
-	on:swiper={(e) => console.log(e.detail[0])}
 >
 	<SwiperSlide class="border">
 		<h2>Check 1: Quelle</h2>

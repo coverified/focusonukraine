@@ -113,10 +113,6 @@
 		}
 	}
 
-	.sr-only {
-		display: none;
-	}
-
 	::-webkit-scrollbar {
 		display: none;
 	}

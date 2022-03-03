@@ -25,8 +25,6 @@
 	slidesPerView={1}
 	pagination={{ clickable: true }}
     class="mb-5"
-	on:slideChange={() => console.log('slide change')}
-	on:swiper={(e) => console.log(e.detail[0])}
 >
 	<SwiperSlide class="border">
 		<h2>1. Transparenz</h2>
@@ -85,8 +83,6 @@
 	slidesPerView={1}
 	pagination={{ clickable: true }}
     class="mb-5"
-	on:slideChange={() => console.log('slide change')}
-	on:swiper={(e) => console.log(e.detail[0])}
 >
 	<SwiperSlide class="border">
 		<h2>1. Transparenz</h2>
@@ -138,6 +134,6 @@
     Ihr habt Vorschläge für weitere verlässliche Informations-Quellen, valide Auswahlkriterien oder andere Verbesserungen dieser Seite, dann schreibt uns gerne!
 </p>
 <!-- TODO MAIl -->
-<a href="mailto:">
+<!-- <a href="mailto:">
     TODO MAIL ADRESSE EINFÜGEN
-</a>
+</a> -->
