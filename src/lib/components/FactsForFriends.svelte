@@ -11,11 +11,11 @@
 	let promise = getData();
 </script>
 
-<h2>Fake vs. Fakt</h2>
+<h2>Aktuelle Faktenchecks</h2>
 <p>
-	Facts for Friends macht Faktencheck verständlich und alltagstauglich. Nach dem Motto
-	#ErzählMirKeineMärchen, liefern sie die besseren Argumente gegen Desinformationen und
-	Verschwörungen.
+	Die Plattform Facts for Friends macht Faktencheck verständlich und alltagstauglich. 
+	Unter dem Motto #ErzählMirKeineMärchen, liefern sie die besseren Argumente gegen 
+	Desinformationen und Verschwörungen.
 </p>
 <div class="height">
 	{#await promise then data}
