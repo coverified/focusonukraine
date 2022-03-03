@@ -20,7 +20,7 @@
 <div class="height">
 	{#await promise then data}
 		{#each data as item}
-			<img src={item.image_url} alt={item.headline} />
+			<img src={item.image_url} alt={item.headline} width="488" height="174"/>
 			<h2>{item.headline}</h2>
 			<p>{item.snack}</p>
 			<a
