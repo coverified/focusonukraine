@@ -17,23 +17,23 @@
 </script>
 
 <p class="intro">
-	Gezielte Propaganda erzeugt Desinformation und Verunsicherung. Wir bieten Euch Fakten statt Fake
+	Gezielte Propaganda erzeugt Desinformation und Verunsicherung. Wir bieten Fakten
 	und Tools zum Selber-Checken.
 </p>
 <!-- TODO Factsforfriends.de Einbindung -->
 <h2>Tools & Tipps</h2>
 <p>
-	Verschiedene Methoden, wie Ihr Nachrichten auf ihren Wahrheitsgehalt prüfen könnt, um
+	Wir zeigen verschiedene Methoden, wie Nachrichten auf ihren Vertrauenswürdigkeit geprüft werden können, um
 	Falschinformationen zuverlässig zu identifizieren.
 </p>
 <div class="border">
-	<h2>Fact-Check-Liste</h2>
+	<h2>Trust-Checking-Liste</h2>
 	<p>
-		Fake oder Fakt? Mit dieser Checkliste kannst du das in 6 einfachen Schritten direkt selbst
-		überprüfen.
+		Mit dieser Checkliste kannst Du in 6 einfachen Schritten direkt selbst
+		überprüfen, wie vertrauenswürding eine Information ist.
 	</p>
 	<a href="https://codetekt.org/" title="Codetekt" rel="noopener" target="_blank">
-		Hier wirst du Profi-Checker*in
+		Hier wirst Du Profi-Checker*in
 	</a>
 </div>
 <Swiper
@@ -54,7 +54,7 @@
 		</p>
 		<ul>
 			<li>
-				Wird im Text die Originalquelle genannt? Vergleiche den Artikel/die Nachricht mit dieser
+				Wird im Text die Originalquelle genannt? Vergleiche den Artikel / die Nachricht mit dieser
 				Originalquelle.
 			</li>
 			<li>
@@ -71,8 +71,8 @@
 		<h2>Check 2: Bilder & Videos</h2>
 		<p class="fw-600">
 			Bilder und Videos sind für uns wesentlich schneller verständlich als schriftliche
-			Informationen und lösen in uns schnell negative Emotionen aus. Daher sind Sie ein beliebtes
-			Mittel der Manipulation der Leser:innen.
+			Informationen und lösen in uns schnell negative Emotionen aus. Daher sind sie ein beliebtes
+			Mittel der Manipulation der Leser*innen.
 		</p>
 		<ul>
 			<li>Falls angegeben, die Quelle des Bildes prüfen.</li>
@@ -81,12 +81,12 @@
 				nicht.
 			</li>
 			<li>
-				Nutze Reverse Image Search, um zu sehen, ob Fotos in Artikeln oder Nachrichten authentisch
-				sind und nicht aus anderen Kontexten stammen. Ein Tool dafür ist Tineye oder GOOGLE IMAGE
-				SEARCH per Drag+Drop
+				Nutze "Reverse Image Search", um zu sehen, ob Fotos in Artikeln oder Nachrichten authentisch
+				sind und nicht aus anderen Kontexten stammen. Werkzeuge dafür sind z.B. "Tineye" oder "GOOGLE IMAGE
+				SEARCH".
 			</li>
 			<li>
-				Für Videos: Screenshots lassen sich ebenfalls mit Reverse Image Search recherchieren.
+				Für Videos: Screenshots von Videos lassen sich ebenfalls mit Reverse Image Search recherchieren.
 				<a
 					href="https://citizenevidence.amnestyusa.org/"
 					title="Amnesty International"
@@ -100,7 +100,7 @@
 		<h2>Check 3: Inhalt</h2>
 		<p class="fw-600">
 			Der Text ist das Herzstück eines Artikels. Hier kann sehr kurz und reißerisch auf ein Thema
-			aufmerksam gemacht werden oder fundiert und informativ berichtet werden. Lies genau!
+			aufmerksam gemacht oder fundiert und informativ berichtet werden. Lies genau!
 		</p>
 		<ul>
 			<li>Passen die Inhalte des Artikels zur Überschrift?</li>
@@ -116,10 +116,10 @@
 				for Friends oder Mimikama aufgegriffen und geprüft?
 			</li>
 			<li>
-				Ist der Artikel ist möglichst objektiv geschrieben und frei von Generalisierungen,
+				Ist der Artikel möglichst objektiv geschrieben und frei von Generalisierungen,
 				Unterstellungen und diskriminierender Sprache?
 			</li>
-			<li>Werden beide Seiten einer Debatte/ unterschiedliche Positionen dargestellt?</li>
+			<li>Werden beide Seiten einer Debatte / unterschiedliche Positionen dargestellt?</li>
 		</ul>
 	</SwiperSlide>
 	<SwiperSlide class="border">
@@ -146,7 +146,7 @@
 	<SwiperSlide class="border">
 		<h2>Check 5: Eigentümer*innen</h2>
 		<p class="fw-600">
-			Achte im Impressum auf die Eigentümer der Webseite und prüfe den Autor des Artikels.
+			Achte im Impressum auf die Eigentümer*innen der Webseite und prüfe die Autor*in des Artikels.
 		</p>
 		<ul>
 			<li>
@@ -154,7 +154,7 @@
 				Gibt es einen Verdacht auf staatliche Einflüsse (RT DE), starken politischen Bias (Junge
 				Freiheit oder Linksunten-indymedia) oder Verbindungen zu Lobbygruppen?
 			</li>
-			<li>Recherchiere die Personen des Artikels/Textes:</li>
+			<li>Recherchiere die Personen des Artikels / Textes:</li>
 			<li>Ist es ein*e bekannte*r Journalist*in, Autor*in?</li>
 		</ul>
 	</SwiperSlide>
@@ -162,7 +162,7 @@
 		<h2>Check 6: Zitate</h2>
 		<p class="fw-600">
 			Gerade Zitate werden gerne manipuliert. Prüfe, ob das genannte Zitat verändert wurde und wer
-			zitiert wird. Hat er überhaupt Expertise im Feld?
+			zitiert wird. Hat sie / er überhaupt Expertise im Feld?
 		</p>
 		<ul>
 			<li>Schau dir die Zitate im Artikel/Text an. Wer hat diese geäußert?</li>
@@ -177,7 +177,7 @@
 			</li>
 			<li>
 				Kommen in der Nachricht identifizierbare Personen (beispielsweise mit vollständigem Namen
-				und/oder Wohnort) direkt oder indirekt zu Wort?
+				und / oder Wohnort) direkt oder indirekt zu Wort?
 			</li>
 		</ul>
 	</SwiperSlide>
@@ -186,7 +186,7 @@
 	<h2>SIFT-Methode</h2>
 	<p>
 		Mike Caulfield, Director of Blended and Networked Learning der Washington State University
-		empfiehlt die 4 Schritte: Stoppen, recherchieren, finden, nachverfolgen.
+		empfiehlt die 4 Schritte: stoppen, recherchieren, finden, nachverfolgen.
 	</p>
 	<a
 		href="https://researchguides.uoregon.edu/c.php?g=612324&p=7297194"
@@ -204,7 +204,7 @@
 	<p>
 		Vom Bildungsanbieter für Medienkompetenz, NewseumED.org, stammt diese Methode, die Informationen
 		anhand von 6 aufeinanderfolgenden Evaluationsphasen beurteilt: Beweis, Quelle, Kontext,
-		Zielgruppem Zweck und Darstellung.
+		Zielgruppe, Zweck und Darstellung.
 	</p>
 	<a
 		href="https://lakeland.libguides.com/c.php?g=696342&p=5309560"
