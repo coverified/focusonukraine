@@ -34,7 +34,7 @@
 
 		img {
 			width: calc(100% + 24px);
-			height: 255px;
+			height: 21.25rem;
 			object-fit: contain;
 			margin-bottom: 1rem;
 			margin-right: -12px;

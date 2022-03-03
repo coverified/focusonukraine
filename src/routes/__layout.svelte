@@ -116,6 +116,7 @@
 		--color-black: #000;
 		--color-white: #fff;
 		--body-color: #383840;
+		--border-color: #dee2e6;
 		--bs-gutter-x: 1.6875rem;
 
 		overflow-x: hidden;

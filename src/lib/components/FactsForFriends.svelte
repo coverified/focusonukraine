@@ -47,9 +47,7 @@
 		border: 1px solid var(--border-color);
 
 		h2 {
-			&:first-of-type {
-				margin-top: 0.5rem;
-			}
+			margin-top: 0rem;
 		}
 
 		img {
