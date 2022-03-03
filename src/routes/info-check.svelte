@@ -31,7 +31,7 @@
 	<h2>Trust-Checking-Liste</h2>
 	<p>
 		Mit dieser Checkliste kannst Du in 6 einfachen Schritten direkt selbst
-		überprüfen, wie vertrauenswürding eine Information ist.
+		überprüfen, wie vertrauenswürdig eine Information ist.
 	</p>
 	<a href="https://codetekt.org/" title="Codetekt" rel="noopener" target="_blank">
 		Hier wirst Du Profi-Checker*in
@@ -189,7 +189,7 @@
 <div class="border mt-3 pb-0">
 	<h2>SIFT-Methode</h2>
 	<p>
-		Mike Caulfield, Director of Blended and Networked Learning der Washington State University
+		Mike Caulfield, Director of Blended and Networked Learning der Washington State University,
 		empfiehlt die 4 Schritte: stoppen, recherchieren, finden, nachverfolgen.
 	</p>
 	<a
