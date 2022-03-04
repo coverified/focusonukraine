@@ -10,7 +10,7 @@
 			<svg class="">
 				<use xlink:href="#ukraine" xmlns:xlink="http://www.w3.org/1999/xlink" />
 			</svg>
-			<span class="d-block small">Einfach vielfältig informiert</span>
+			<span class="d-block small">Seriös recherchiert, umfassend informiert</span>
 		</a>
 	</h1>
 	<nav>
