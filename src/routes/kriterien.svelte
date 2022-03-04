@@ -131,3 +131,6 @@
 <p>
     Ihr habt Vorschläge für weitere verlässliche Quellen, valide Auswahlkriterien oder andere Verbesserungen dieser Seite, dann schreibt uns gerne!
 </p>
+<a class="" title="Mail schreiben" href="mailto:info@digital-democracy-alliance.org?subject=FocusOnUkraine">
+	Email schreiben
+</a>
