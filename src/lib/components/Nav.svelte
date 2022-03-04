@@ -4,12 +4,14 @@
 
 <div class="container">
 	<h1>
-		#FocusOn
-		<span class="sr-only">Ukraine</span>
-		<svg class="">
-			<use xlink:href="#ukraine" xmlns:xlink="http://www.w3.org/1999/xlink" />
-		</svg>
-		<span class="d-block small">Einfach vielfältig informiert</span>
+		<a href="/" title="Startseite" class="text-decoration-none">
+			#FocusOn
+			<span class="sr-only">Ukraine</span>
+			<svg class="">
+				<use xlink:href="#ukraine" xmlns:xlink="http://www.w3.org/1999/xlink" />
+			</svg>
+			<span class="d-block small">Seriös recherchiert, umfassend informiert</span>
+		</a>
 	</h1>
 	<nav>
 		<a title="Aktuelles" href="." sveltekit:prefetch class:active={$page.url.pathname === '/'}>

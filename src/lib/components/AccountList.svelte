@@ -9,7 +9,7 @@
 
 	let lastIndex;
 	const handleImageClick = (twitterLink, index) => {
-		if(index === lastIndex && lastIndex) {
+		if(index === lastIndex && lastIndex !== undefined) {
 			singleFeed = false;
 			activeItem = undefined;
 			return

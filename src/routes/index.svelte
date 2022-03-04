@@ -7,6 +7,16 @@
 	export let desktopView;
 </script>
 
+
+<svelte:head>
+    <title>#FocusOnUkraine – Seriös recherchiert, umfassend informiert</title>
+    <meta
+        name="description"
+        content="#FocusOnUkraine bündelt vertrauenswürdige Informationen zum Krieg in der Ukraine. Zur aktuellen
+		Lage berichten anerkannte internationale und nationale Twitterstimmen."
+    />
+</svelte:head>
+
 <p class="intro">
 	#FocusOnUkraine bündelt vertrauenswürdige Informationen zum Krieg in der Ukraine. Zur aktuellen
 	Lage berichten anerkannte internationale und nationale Twitterstimmen.
