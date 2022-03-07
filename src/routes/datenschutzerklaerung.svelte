@@ -1,8 +1,17 @@
 <h1>Datenschutzerklärung</h1>
 <span class="small">Stand: 2. März 2022</span>
 <h2>Verantwortliche</h2>
+<p>
+	CoVerified GmbH<br />
+	Universität des Saarlandes<br />
+	Starterzentrum Gebäude A1 1<br />
+	66123 Saarbrücken
+</p>
+<p>Ansprechperson für Fragen zum Datenschutz:</p>
 <p>Rechtsanwältin Dr. Natalya Spuling</p>
-<p>spuling@mein-datenschutzanwalt.de</p>
+<a href="mailto:spuling@mein-datenschutzanwalt.de" title="Rechtsanwältin Dr. Natalya Spuling"
+	>spuling@mein-datenschutzanwalt.de</a
+>
 <h2>Übersicht der Verarbeitungen</h2>
 <p>
 	Die nachfolgende Übersicht fasst die Arten der verarbeiteten Daten und die Zwecke ihrer

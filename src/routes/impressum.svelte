@@ -4,7 +4,7 @@
 <h2 class="h1 mt-5">Impressum</h2>
 <p>
 	Dies ist ein Projekt der Digital Democracy Alliance mit den Initiativen Facts for Friends,
-	codetect und CoVerified.
+	codetekt und CoVerified.
 </p>
 <p>
 	<b>Angaben gemäß § 5 TMG:</b>
@@ -19,7 +19,7 @@
 	E-Mail: <a href="mailto:info@coverified.info" title="CoVerified E-Mail">info@coverified.info</a
 	><br />
 	Web:
-	<a href="www.coverified.info" title="CoVerified.info" rel="noopener" targer="_blank"
+	<a href="https://www.coverified.info" title="CoVerified.info" rel="noopener" targer="_blank"
 		>www.coverified.info</a
 	>
 </p>
