@@ -19,7 +19,7 @@
 	E-Mail: <a href="mailto:info@coverified.info" title="CoVerified E-Mail">info@coverified.info</a
 	><br />
 	Web:
-	<a href="https://www.coverified.info" title="CoVerified.info" rel="noopener" targer="_blank"
+	<a href="https://www.coverified.info" title="CoVerified.info" rel="noopener" target="_blank"
 		>www.coverified.info</a
 	>
 </p>

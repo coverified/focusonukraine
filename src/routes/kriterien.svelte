@@ -25,41 +25,41 @@
 	loop
 	slidesPerView={1}
 	pagination={{ clickable: true }}
-    class="mb-5"
+    class="mb-5 swiper-slideshow-primary"
 >
-	<SwiperSlide class="border">
+	<SwiperSlide class="border swiper-slide-primary">
 		<h2>1. Transparenz</h2>
 		<p>
 			Es gibt umfangreiche Informationen zu der Person - wie Herkunft, Ausbildung, Studium,
 			Berufserfahrung und Beschäftigung.
 		</p>
 	</SwiperSlide>
-	<SwiperSlide class="border">
+	<SwiperSlide class="border swiper-slide-primary">
 		<h2>2. Erfahrung</h2>
 		<p>
 			Die Person hat mehrjährige Erfahrung als Politikwissenschaftler*in, Journalist*in,
 			Historiker*in, Expert*in
 		</p>
 	</SwiperSlide>
-	<SwiperSlide class="border">
+	<SwiperSlide class="border swiper-slide-primary">
 		<h2>3. Medienzitate</h2>
 		<p>Die Person wurde mehrfach von verschiedenen Medien zu dem Thema befragt und/oder zitiert</p>
 	</SwiperSlide>
-	<SwiperSlide class="border">
+	<SwiperSlide class="border swiper-slide-primary">
 		<h2>4. Empfehlungen</h2>
 		<p>
 			Die Person wurde mehrfach von verschiedenen Medien und/oder Expert*innen zu diesem Thema
 			empfohlen.
 		</p>
 	</SwiperSlide>
-	<SwiperSlide class="border">
+	<SwiperSlide class="border swiper-slide-primary">
 		<h2>5. Themenfokus</h2>
 		<p>
 			Der Hauptfokus des Accounts liegt auf dem Krieg in der Ukraine und bietet aktuelle 
 			sowie zurückliegende Informationen.
 		</p>
 	</SwiperSlide>
-	<SwiperSlide class="border">
+	<SwiperSlide class="border swiper-slide-primary">
 		<h2>6. Medien vor Ort</h2>
 		<p>
 			Wir geben bewusst den Medien vor Ort eine Plattform und Sichtbarkeit. Internationale

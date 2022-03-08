@@ -15,9 +15,6 @@
 	</h1>
 	<nav>
 		<a title="Aktuelles" href="." sveltekit:prefetch class:active={$page.url.pathname === '/'}>
-			<svg class="">
-				<use xlink:href="#magnifying-glass" xmlns:xlink="http://www.w3.org/1999/xlink" />
-			</svg>
 			Aktuelles
 		</a>
 		<a
@@ -26,9 +23,6 @@
 			sveltekit:prefetch
 			class:active={$page.url.pathname === '/hintergruende'}
 		>
-			<svg class="">
-				<use xlink:href="#magnifying-glass" xmlns:xlink="http://www.w3.org/1999/xlink" />
-			</svg>
 			Hintergründe
 		</a>
 		<a
@@ -37,9 +31,6 @@
 			sveltekit:prefetch
 			class:active={$page.url.pathname === '/info-check'}
 		>
-			<svg class="">
-				<use xlink:href="#magnifying-glass" xmlns:xlink="http://www.w3.org/1999/xlink" />
-			</svg>
 			InfoCheck
 		</a>
 		<a
@@ -48,9 +39,6 @@
 			sveltekit:prefetch
 			class:active={$page.url.pathname === '/kriterien'}
 		>
-			<svg class="">
-				<use xlink:href="#magnifying-glass" xmlns:xlink="http://www.w3.org/1999/xlink" />
-			</svg>
 			Kriterien
 		</a>
 		<a
@@ -59,9 +47,6 @@
 			sveltekit:prefetch
 			class:active={$page.url.pathname === '/ueber-uns'}
 		>
-			<svg class="">
-				<use xlink:href="#magnifying-glass" xmlns:xlink="http://www.w3.org/1999/xlink" />
-			</svg>
 			Über
 		</a>
 	</nav>
@@ -93,11 +78,6 @@
 			overflow-x: auto;
 			white-space: nowrap;
 			padding-bottom: 1.125rem;
-
-			svg {
-				width: 20px;
-				height: 13px;
-			}
 
 			a {
 				text-decoration: none;

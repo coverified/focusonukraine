@@ -92,6 +92,7 @@
 					href="https://citizenevidence.amnestyusa.org/"
 					title="Amnesty International"
 					rel="noopener"
+					class="text-break"
 					target="_blank">https://citizenevidence.amnestyusa.org/</a
 				> 
 			</li>

@@ -81,7 +81,7 @@
 	}
 
 	@media (min-width: 1400px) {
-		:global(.container)  {
+		:global(.container) {
 			max-width: 960px;
 		}
 	}
@@ -151,6 +151,22 @@
 		:global(h2) {
 			margin-top: 0;
 			margin-bottom: 0.75rem;
+		}
+	}
+
+	:global(.swiper-pagination-bullet-active) {
+		background: var(--color-primary) !important;
+	}
+
+	:global(.swiper-slideshow-primary) {
+		:global(.swiper-slide-primary) {
+			background-color: var(--color-primary);
+			color: var(--color-white);
+			border: 0;
+		}
+
+		:global(.swiper-pagination-bullet-active) {
+			background: var(--color-secondary) !important;
 		}
 	}
 
