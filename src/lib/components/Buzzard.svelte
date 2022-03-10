@@ -1,13 +1,31 @@
 <script>
 	import Buzzard from '$lib/assets/buzzard.png';
+
+	const endpoint = 'https://buzzard.org/ukraine.php';
+
+	const getData = async () => {
+		const response = await fetch(endpoint);
+		return await response.json();
+	};
+
+	let promise = getData();
 </script>
 
-<h2><span>coming soon:</span> The Buzzard</h2>
+<h2>The Buzzard</h2>
 <p>
 	„Buzzard“ ist eine neue News-App für Perspektiven-Vielfalt, die zu den Top-Themen des Tages
 	Medienbeiträge des ganzen politischen Spektrums bündelt und journalistisch einordnet.
 </p>
-
+<div class="height">
+	{#await promise then data}
+		{#each data as item}
+			<h2>{item.title}</h2>
+			<a href={item.url} rel="noopener" target="_blank" title={item.linktext} class="fact-link">
+				{item.linktext}
+			</a>
+		{/each}
+	{/await}
+</div>
 <a
 	href="https://www.buzzard.org/"
 	title="https://www.buzzard.org/"
@@ -20,23 +38,14 @@
 
 <style lang="scss">
 	.height {
-		height: 35rem;
+		max-height: 25rem;
 		overflow: auto;
 		padding: 0 12px 21px 12px;
 		border: 1px solid var(--border-color);
 
-		img {
-			width: calc(100% + 24px);
-			height: 21.25rem;
-			object-fit: contain;
-			margin-bottom: 1rem;
-			margin-right: -12px;
-			margin-left: -12px;
-		}
-
 		h2 {
-			span {
-				font-weight: 300;
+			&:first-of-type {
+				margin-top: 0.5rem;
 			}
 		}
 	}
