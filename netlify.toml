@@ -1,0 +1,7 @@
+# API redirects
+## Proxy cases endpoint directly to external API
+[[redirects]]
+  from = "/api/buzzard"
+  to = "https://buzzard.org/ukraine.php"
+  status = 200
+  force = true
