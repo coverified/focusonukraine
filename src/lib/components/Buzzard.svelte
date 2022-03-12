@@ -1,7 +1,7 @@
 <script>
 	import Buzzard from '$lib/assets/buzzard.png';
 
-	const endpoint = '/cors-proxy/https://buzzard.org/ukraine.php';
+	const endpoint = '/api/buzzard';
 
 	const getData = async () => {
 		const response = await fetch(endpoint);
